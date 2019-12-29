@@ -32,7 +32,7 @@ def getFileFromServer(force=False, url="https://github.com/chriskempson/base16-s
     if not os.path.exists("cache/master.zip") or force:
         print("🚀 Downloading implementation from remote server...")
         request.urlretrieve(url, "cache/master.zip")
-        print("✅ Download compeleted.")
+        print("🎉 Download compeleted.")
     unZipFile()
 
 
@@ -46,7 +46,7 @@ def unZipFile():
     for names in zipFile.namelist():
         zipFile.extract(names, "cache/extract")
     zipFile.close()
-    print("✅ Unzip compeleted.")
+    print("🎉 Unzip compeleted.")
 
 
 def getFileList():
