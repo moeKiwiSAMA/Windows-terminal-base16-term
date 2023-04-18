@@ -39,7 +39,6 @@ Add the scheme you choosed to terminal profile:
   "hidden": false,
   "name": "Ubuntu-18.04",
   "colorScheme" : "base16-cupcake",// Here.
-  "cursorColor": "#ab9bab",
   "fontFace": "DejaVuSansMono NF",
   "source": "Windows.Terminal.Wsl"
 }
